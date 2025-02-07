@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGGIN FORM</title>
+        <h1>LOGGIN FORM</h1>
+        <style>
+            .form container{
+                width: 20px;
+                background: red;
+                padding:100px;
+            }
+            h1{
+                color: rgb(84, 8, 224);
+                font-size: 50px;
+                padding: 10px;
+                align-content: center;
+            }
+            form_content{
+                width: 20%;
+                padding: 30px;
+            }
+            form{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+             form > input{
+                width: 50%;
+                height: 50px;
+                outline: none;
+                margin: 10px;
+                border: 23px rgb(163, 14, 163);
+            }
+        </style>
+    </head>
+    <body bgcolor="darkyellow">
+        <div class="form_container">
+            <div class="form_content">
+                <form action="Loggin.html"method="post">
+                    <label for="name">First name</label>
+                    <input type="text"name="name"id="name"placeholder="Enter your first name"required><br>
+                    <label for="name">Last name</label>
+                    <input type="text"name="name"id="name"placeholder="Enter your last name"required><br>
+                    <label for="email">Email</label>
+                    <input type="email"placeholder="email"><br>
+                    <label for="Password">Password</label>
+                    <input type="password"placeholder="password"><br>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
